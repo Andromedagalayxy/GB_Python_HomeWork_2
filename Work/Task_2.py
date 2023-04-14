@@ -12,11 +12,12 @@ for i in range (Sum):
             print (f"{i} + {b} = {Sum} & {i} * {b} = {Mult}")
             f = True
             continue
+        
+        b -= 1
     
     if (f == True):
         break
 
-    b -= 1
     
 if (f == False):
     print ("it's impossible")
